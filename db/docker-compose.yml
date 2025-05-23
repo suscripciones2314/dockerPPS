@@ -1,0 +1,11 @@
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_PASSWORD: renaido 
+      POSTGRES_DB: mi_db        
+    volumes:
+      - db_data:/var/lib/postgresql/data 
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql 
+volumes:
+  db_data:
