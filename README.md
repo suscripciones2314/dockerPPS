@@ -110,3 +110,4 @@ Parte 4: Execución e probas
 		http://localhost:8080 → frontend.
 		http://localhost:5000 → backend 
 
+En la rama "main" se podrá ver un archivo pdf llamado "Tarefa Avaliación 4.pdf"  donde se verá imágenes de como se hizo el ejercicio.
